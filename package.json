@@ -1,0 +1,25 @@
+{
+  "name": "@akaswap/core",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "akaswap"
+  ],
+  "author": "akaSwap",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsup": "^8.2.1",
+    "typescript": "^5.5.3"
+  }
+}
