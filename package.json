@@ -10,13 +10,14 @@
     "url": ""
   },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup && npm link"
   },
   "keywords": [
     "akaswap"
   ],
   "author": "akaSwap",
   "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^20.14.10",
     "tsup": "^8.2.1",
