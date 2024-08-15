@@ -1,2 +1,1 @@
-# akaSwap UI
-
+# akaSwap core
