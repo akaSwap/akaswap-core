@@ -17,8 +17,16 @@
   ],
   "author": "akaSwap",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@toruslabs/constants": "^13.2.0",
+    "@toruslabs/fetch-node-details": "^13.2.0",
+    "@toruslabs/torus.js": "^12.2.0",
+    "blakejs": "^1.2.1",
+    "bs58check": "^3.0.1",
+    "elliptic": "^6.5.5"
+  },
   "devDependencies": {
+    "@types/elliptic": "^6.4.18",
     "@types/node": "^20.14.10",
     "tsup": "^8.2.1",
     "typescript": "^5.5.3"

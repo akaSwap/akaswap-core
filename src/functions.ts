@@ -1,3 +1,4 @@
+import * as torus from "./libs/torus";
 import { WalletProps } from "./types/akaswap";
 
 export const showWallet = ({
@@ -19,5 +20,11 @@ export const showWallet = ({
 
 export const getIpfsSrc = (gateway: string, url: string) => {
   let hash = url.startsWith("ipfs://") ? url.split("ipfs://")[1] : url;
+  if (gateway[gateway.length - 1] !== "/") gateway += "/";
   return `${gateway}${hash}`;
+};
+
+export const lookUpWallet = async (identifier: string) => {
+  const address = await torus.lookupPkh("google", identifier);
+  return address;
 };
