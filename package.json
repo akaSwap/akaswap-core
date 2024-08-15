@@ -10,8 +10,7 @@
     "url": ""
   },
   "scripts": {
-    "build": "tsup && npm link",
-    "prepare": "tsup"
+    "build": "tsup && npm link"
   },
   "keywords": [
     "akaswap"
